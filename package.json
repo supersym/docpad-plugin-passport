@@ -1,0 +1,43 @@
+{
+  "name": "docpad-plugin-passport",
+  "version": "1.0.0",
+  "description": "Adds support for passport.js authentications",
+  "homepage": "https://github.com/supersym/docpad-plugin-passport",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "plugin",
+    "authentication",
+    "oauth"
+  ],
+  "author": "Rob Jentzema(http://supersym.github.com)",
+  "maintainers": [
+    "Rob Jentzema(http://supersym.github.com)"
+  ],
+  "contributors": [
+    "Rob Jentzema(http://supersym.github.com)"
+  ],
+  "bugs": {
+    "url": "https://github.com/supersym/docpad-plugin-passport/issues"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/supersym/docpad-plugin-passport.git"
+  },
+  "engines" : {
+    "node": ">=0.4.0",
+    "docpad": "6.x"
+  },
+  "dependencies": {
+    "passport": "latest",
+    "passport-local": "latest",
+    "passport-oauth": "latest"
+  },
+  "devDependencies": {
+    "coffee-script": "1.3.x"
+  },
+  "main": "./out/passport.plugin.js",
+  "scripts": {
+    "test": "node ./test/passport.test.js"
+  }
+}
